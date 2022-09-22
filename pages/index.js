@@ -117,16 +117,17 @@ export default function Home() {
                 setModal(false);
               }}
             >
-              You're Registered
+              {"You're Registered!"}
             </ModalHeader>
             <ModalBody>
               Thank you, {state.name}, for giving use an opportunity to serve!
               <br />
               <br />
               <br />
-              If you have any questions, Contact Andrea Williams{" "}
-              <a href="tel:2522597780">(252) 259 -7780</a>. See you October 1st
-              at 10:00 am.
+              If you have any questions, Contact Andrea Williams. <br />
+              <a href="tel:2522597780">(252) 259 -7780</a>
+              <br />
+              See you October 1st at 10:00 am.
             </ModalBody>
           </Modal>
         )}
